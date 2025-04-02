@@ -144,13 +144,6 @@ const NewArrivals = () => {
       // setCanScrollRight(
       //   container.scrollLeft < container.scrollWidth - container.clientWidth
       // );
-
-      
-        scrollLeft: container.scrollLeft,
-        clientWidth: container.clientWidth,
-        containerScrollWidth: container.scrollWidth,
-        offsetLeft: scrollRef.current.offsetLeft,
-      });
     }
   };
 
